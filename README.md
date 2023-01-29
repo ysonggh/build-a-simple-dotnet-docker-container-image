@@ -11,10 +11,10 @@ Make sure you have installed Docker(https://docs.docker.com/desktop/), dotnet co
 3. In your terminal, run cmd `dotnet build ./MyWebApp` to build your web app.
 4. In your terminal, run cmd `dotnet run --project ./MyWebApp` to run your web app. To test it, open a new terminal, run cmd `curl http://localhost:<port-number>` to check whether the app is accessible. `Ctrl + c` to exit the app.
 
-## Step 2: Publish a local build of your web app (this is what will be copied into the container)
+## Step 2: Publish a local build of your web app (This is what will be copied into the container)
 In your terminal, run cmd `dotnet publish -c Release ./MyWebApp`
 
-## Step 3: Build the container image and tag it (Make sure the Dockerfile is get ready)
+## Step 3: Build the container image and tag it (Make sure the Dockerfile is ready)
 In your terminal, run cmd `docker build -t mywebappimage:v1 .`
 Note: 
 - The Dockerfile and config.sh files can be find in main directory of this repository.
