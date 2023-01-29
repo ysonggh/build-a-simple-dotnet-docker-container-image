@@ -1,3 +1,6 @@
+# Overview
+This repository is to build a C#-based Hello World .NET Core Web Application Docker Image with .NET7.0
+
 # Environment Setup
 Make sure you have installed Docker(https://docs.docker.com/desktop/), dotnet core sdk and asp.net runtime (https://dotnet.microsoft.com/en-us/download) on your machine.
 
