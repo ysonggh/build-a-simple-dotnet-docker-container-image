@@ -32,5 +32,13 @@ Note:
 - After you delete the container, the `mywebappimage` docker image should still be here where you can check via cmd `docker images`.
 - You can always list all docker containers via cmd `docker ps -a`
 
+# Steps to create an Azure Container Registry and push the docker image to ACR via Azure CLI
+## Step 1: Create an Azure Container Registry via Azure CLI
+[Azure CLI cmd (Link to my GitHub Gist)](https://gist.github.com/ysonggh/7752f26d9ff5f8bfe9a6dd38c994c128)
+
+## Step 2: Push docker image to the existing Azure Container Registry via Azure CLI
+[Azure CLI cmd (Link to my GitHub Gist)](https://gist.github.com/ysonggh/cbbe516e186fd08783b2e81e59ce9d77)
+
+
 # Issues
 Please raise an issue if you have any questions. Thank you.
